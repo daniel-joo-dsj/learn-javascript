@@ -6,16 +6,43 @@ ul {
     color: navy;
 }
 
+li {
+    margin: 5px;
+}
+
 a:link {
     color: brown;
 }
 
-/* a:hover {
-
+.flex-recipe-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+    background: plum;
+    border: 4px solid indigo;
 }
 
-a:active {} */
+.link {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.link a {
+    flex: 1 1 auto;
+    background: peachpuff;
+    text-align: center;
+    vertical-align: middle;
+}
+
 
 * {
     background-color: aliceblue;
+    /* outline: 2px solid red; */
 }
