@@ -1,0 +1,21 @@
+h1 {
+    color: navy;
+}
+
+ul {
+    color: navy;
+}
+
+a:link {
+    color: brown;
+}
+
+/* a:hover {
+
+}
+
+a:active {} */
+
+* {
+    background-color: aliceblue;
+}
