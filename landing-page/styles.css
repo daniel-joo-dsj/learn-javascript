@@ -15,4 +15,25 @@
 .landing-page .header, .footer {
     background: cyan;
     flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo, .header-links{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1 1 0;
+}
+
+.link {
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+/* To see layout of boxes easier, will delete later */
+div {
+    border: 2px solid purple;
+    margin: 4px;
 }
