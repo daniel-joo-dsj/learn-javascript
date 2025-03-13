@@ -1,0 +1,18 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    height: 1920px;
+}
+
+.main-section {
+    background: peachpuff;
+    border: 4px solid brown;
+    justify-content: center;
+    align-items: center;
+    flex: 20 1 auto;
+}
+
+.landing-page .header, .footer {
+    background: cyan;
+    flex: 0 0 auto;
+}
