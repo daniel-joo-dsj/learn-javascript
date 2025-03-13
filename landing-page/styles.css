@@ -15,9 +15,10 @@
     justify-content: center;
 }
 
-.main-section.info {
-    padding-right: 400px;
-    padding-left: 400px;
+/* Is it better to refactor and create vertical flexboxes to set the paddings?*/
+.main-section.info, .main-section.quote {
+    padding-right: 300px;
+    padding-left: 300px;
 }
 
 .landing-page .header, .footer {
@@ -70,7 +71,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .info-illustrations-container .info-illustration {
@@ -87,6 +88,34 @@
 .info-illustration .caption {
     flex: 1 1 0;
 }
+
+/* Quote */
+.quote {
+    flex-direction: column;
+    display: flex;
+}
+
+.quote div {
+    flex: 2 1 0;
+    width: 100%;
+    display: flex;
+}
+
+.quote .quote-text {
+    flex-direction: column;
+    flex: 5 1 0;
+    justify-content: center;
+    align-items: center;
+}
+.quote-text .text {
+    flex: 20 1 0;
+}
+.quote-text .author {
+    flex: 1 1 0;
+    justify-content: right;
+    align-items: center;
+}
+
 
 /* To see layout of boxes easier, will delete later */
 div {
