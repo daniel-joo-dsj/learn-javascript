@@ -15,6 +15,11 @@
     justify-content: center;
 }
 
+.main-section.info {
+    padding-right: 400px;
+    padding-left: 400px;
+}
+
 .landing-page .header, .footer {
     flex: 0 0 auto;
 }
@@ -45,6 +50,42 @@
 .intro-signup div {
     flex: 1 1 0;
     width: 100%;
+}
+
+/* Info */
+.info {
+    flex-direction: column;
+}
+
+.info div {
+    flex: 1 1 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .info-illustrations-container {
+    flex: 3 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-illustrations-container .info-illustration {
+    flex: 1 1 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-illustration .illustration {
+    flex: 2 1 0;
+}
+
+.info-illustration .caption {
+    flex: 1 1 0;
 }
 
 /* To see layout of boxes easier, will delete later */
