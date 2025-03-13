@@ -15,7 +15,7 @@
     justify-content: center;
 }
 
-/* Is it better to refactor and create vertical flexboxes to set the paddings?*/
+/* Is it better to refactor and create vertical flexboxes to set the paddings? */
 .main-section.info, .main-section.quote {
     padding-right: 300px;
     padding-left: 300px;
@@ -92,7 +92,6 @@
 /* Quote */
 .quote {
     flex-direction: column;
-    display: flex;
 }
 
 .quote div {
@@ -116,6 +115,39 @@
     align-items: center;
 }
 
+/* Sign up banner */
+.signup {
+    flex-direction: column;
+}
+
+.signup div {
+    width: 100%;
+    flex: 1 1 0;
+}
+
+.signup .signup-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-banner .signup-content {
+    display: flex;
+    flex: 1 1 0;
+    width: 50%;
+}
+
+.signup-content .signup-text {
+    flex: 5 1 0;
+    display: flex;
+}
+
+.signup-content .signup-button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
 /* To see layout of boxes easier, will delete later */
 div {
